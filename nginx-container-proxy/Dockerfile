@@ -24,7 +24,6 @@ EXPOSE 80 443
 
 # add nginx conf
 ADD bookstack.conf /etc/nginx/conf.d/default.conf
-ADD nginx.conf /etc/nginx/nginx.conf
 
 WORKDIR /etc/nginx
 
